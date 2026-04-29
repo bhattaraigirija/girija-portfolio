@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Girija Prasad Bhattarai</title>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="gallery-page">
+    <header class="site-header">
+        <a class="brand" href="index.html#home" aria-label="Back to home">
+            <span class="brand-mark">GP</span>
+            <span>
+                <strong class="brand-text">Girija Prasad Bhattarai</strong>
+                <small>Gallery</small>
+            </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="site-nav" aria-label="Gallery navigation">
+            <a class="nav-link" href="index.html#home">Home</a>
+            <a class="nav-link" href="index.html#about">About</a>
+            <a class="nav-link" href="index.html#education">Education</a>
+            <a class="nav-link" href="index.html#experience">Experience</a>
+            <a class="nav-link" href="index.html#services">Services</a>
+            <a class="nav-link" href="index.html#skills">Skills</a>
+            <a class="nav-link" href="index.html#projects">Projects</a>
+            <a class="nav-link active" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section gallery-hero">
+            <div class="section-title reveal">
+                <p class="kicker">Full Gallery</p>
+                <h1>Photos, places, people, and moments.</h1>
+                <p class="section-note">Use the filters to browse categories. Replace these image files with your real photos anytime.</p>
+            </div>
+
+            <div class="gallery-filters reveal" aria-label="Gallery filters">
+                <button class="gallery-filter active" type="button" data-filter="all">All</button>
+                <button class="gallery-filter" type="button" data-filter="girija">Girija's Photo</button>
+                <button class="gallery-filter" type="button" data-filter="nature">Nature</button>
+                <button class="gallery-filter" type="button" data-filter="animals">Animals</button>
+                <button class="gallery-filter" type="button" data-filter="random">Random</button>
+            </div>
+
+            <div class="photo-grid full-gallery-grid" id="full-gallery-list"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="footer-brand" href="index.html#home"><span class="brand-mark">GP</span><span><strong>Girija Prasad Bhattarai</strong><small>Personal Portfolio</small></span></a>
+        <span>&copy; <span id="year"></span> All rights reserved.</span>
+    </footer>
+    <a class="floating-back-top" href="#" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <script src="data/gallery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
