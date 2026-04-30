@@ -1,12 +1,17 @@
 window.PORTFOLIO_GALLERY = [
-    { category: "girija", title: "Girija", src: "assets/photography/photo-1.jpg" },
-    { category: "nature", title: "Nature", src: "assets/photography/photo-2.jpg" },
-    { category: "random", title: "Random", src: "assets/photography/photo-3.jpg" },
-    { category: "animals", title: "Animals", src: "assets/photography/photo-4.jpg" },
-    { category: "girija", title: "Portrait", src: "assets/photography/photo-5.jpg" },
-    { category: "nature", title: "Nature 02", src: "assets/photography/photo-6.jpg" },
-    { category: "animals", title: "Animal 02", src: "assets/photography/photo-7.jpg" },
-    { category: "random", title: "Random 02", src: "assets/photography/photo-8.jpg" },
-    { category: "nature", title: "Travel", src: "assets/photography/photo-9.jpg" },
-    { category: "girija", title: "Portrait 02", src: "assets/photography/photo-10.jpg" }
+    { category: "girija", categoryLabel: "Girija's Photo", title: "Girija Portrait", src: "assets/gallery/girija-1.jpg" },
+    { category: "girija", categoryLabel: "Girija's Photo", title: "Professional Moment", src: "assets/gallery/girija-2.jpg" },
+    { category: "girija", categoryLabel: "Girija's Photo", title: "Profile Photo", src: "assets/gallery/girija-3.jpg" },
+    { category: "work", categoryLabel: "Work & Teaching", title: "Training Session", src: "assets/gallery/work-1.jpg" },
+    { category: "work", categoryLabel: "Work & Teaching", title: "Project Supervision", src: "assets/gallery/work-2.jpg" },
+    { category: "work", categoryLabel: "Work & Teaching", title: "Development Desk", src: "assets/gallery/work-3.jpg" },
+    { category: "social", categoryLabel: "Social Work", title: "Blood Donation Program", src: "assets/gallery/social-1.jpg" },
+    { category: "social", categoryLabel: "Social Work", title: "Volunteer Support", src: "assets/gallery/social-2.jpg" },
+    { category: "social", categoryLabel: "Social Work", title: "Community Awareness", src: "assets/gallery/social-3.jpg" },
+    { category: "nature", categoryLabel: "Nature", title: "Nature View", src: "assets/gallery/nature-1.jpg" },
+    { category: "nature", categoryLabel: "Nature", title: "Travel Memory", src: "assets/gallery/nature-2.jpg" },
+    { category: "nature", categoryLabel: "Nature", title: "Outdoor Moment", src: "assets/gallery/nature-3.jpg" },
+    { category: "random", categoryLabel: "Random", title: "Random Memory", src: "assets/gallery/random-1.jpg" },
+    { category: "random", categoryLabel: "Random", title: "Captured Moment", src: "assets/gallery/random-2.jpg" },
+    { category: "random", categoryLabel: "Random", title: "Daily Life", src: "assets/gallery/random-3.jpg" }
 ];

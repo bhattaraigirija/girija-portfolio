@@ -1,76 +1,102 @@
 window.PORTFOLIO_EXPERIENCE = {
     software: [
         {
-            org: "Company One",
-            period: "Date - Date",
+            org: "EKbana Solutions Pte. Ltd",
+            period: "Jan 2025 - Present",
+            location: "Lalitpur, Nepal (On-site)",
+            title: "Android Developer",
+            description: "Working as a full-time Android Developer, contributing to scalable mobile application development, performance optimization, and production-level deployments.",
+            tags: ["Android Development", "Performance Optimization", "Production Deployment"]
+        },
+        {
+            org: "Maanjari Technology",
+            period: "Aug 2024 - Present",
+            location: "Kathmandu, Nepal (Remote)",
             title: "Software Engineer",
-            description: "Worked on web and mobile systems, API integration, database workflows, bug fixing, feature delivery, and deployment support for production-ready software.",
-            tags: ["Frontend implementation", "Backend integration", "Release support"]
+            description: "Worked across full-time and part-time responsibilities, collaborating on software systems, backend integration, feature enhancement, code quality, and smooth remote project delivery.",
+            tags: ["Backend Integration", "Feature Enhancement", "Remote Delivery"]
         },
         {
-            org: "Company Two",
-            period: "Date - Date",
-            title: "Backend / Full-Stack Developer",
-            description: "Handled server-side logic, admin workflows, frontend improvements, database updates, and communication between client-side interfaces and backend services.",
-            tags: ["REST APIs", "Database design", "Admin panels"]
+            org: "Nepali Blood Donors",
+            period: "Sep 2020 - Present",
+            location: "Kathmandu, Nepal (On-site)",
+            title: "Founder & Lead Developer",
+            description: "Founded and led the development of a blood donation platform, managing end-to-end product development, including mobile app architecture, backend integration, and user engagement strategies.",
+            tags: ["Founder", "Mobile Architecture", "User Engagement"]
         },
         {
-            org: "Company Three",
-            period: "Date - Date",
-            title: "Application Developer",
-            description: "Built practical application features, improved UI flows, tested releases, and worked with project requirements from planning to delivery.",
-            tags: ["Mobile screens", "Feature testing", "App maintenance"]
+            org: "InfoDevelopers Pvt. Ltd.",
+            period: "Oct 2023 - Aug 2024",
+            location: "Lalitpur, Nepal (On-site)",
+            title: "Android Developer",
+            description: "Built and maintained enterprise-level Android applications, focusing on reliability, scalability, and user experience.",
+            tags: ["Enterprise Apps", "Scalability", "User Experience"]
         },
         {
-            org: "Company Four",
-            period: "Date - Date",
-            title: "Software Project Lead",
-            description: "Coordinated development tasks, reviewed implementation quality, supported team members, and focused on reliable delivery of software features.",
-            tags: ["Team coordination", "Code review", "Client communication"]
+            org: "Pearson",
+            period: "Jul 2022 - Nov 2023",
+            location: "Remote",
+            title: "Test Administrator",
+            description: "Managed and administered online examinations, ensuring compliance with testing protocols and maintaining system integrity.",
+            tags: ["Exam Administration", "Compliance", "System Integrity"]
         },
         {
-            org: "Company Five",
-            period: "Date - Date",
-            title: "Mobile App Developer",
-            description: "Created mobile app modules, connected APIs, improved user flows, handled bug reports, and prepared releases for real users.",
-            tags: ["Android apps", "Firebase", "Play Store support"]
+            org: "IMS Software Pvt. Ltd.",
+            period: "Mar 2023 - Jul 2023",
+            location: "Kathmandu, Nepal (On-site)",
+            title: "Android Developer",
+            description: "Contributed to Android app development, debugging, and feature implementation in a collaborative team environment.",
+            tags: ["Android Apps", "Debugging", "Feature Implementation"]
         },
         {
-            org: "Company Six",
-            period: "Date - Date",
-            title: "Technical Consultant",
-            description: "Reviewed software ideas, suggested practical architectures, helped plan MVP features, and supported teams with technical decisions.",
-            tags: ["MVP planning", "Architecture review", "Technical guidance"]
+            org: "Step2 Solution",
+            period: "Feb 2020 - Dec 2022",
+            location: "Jhapa, Nepal (On-site)",
+            title: "Developer",
+            description: "Worked on multiple software development projects, gaining hands-on experience in application development and problem-solving.",
+            tags: ["Application Development", "Problem Solving", "Software Projects"]
+        },
+        {
+            org: "Department of CSA, Mechi Multiple Campus",
+            period: "Mar 2021 - Oct 2021",
+            location: "Jhapa, Nepal (On-site)",
+            title: "Software Development Intern",
+            description: "Assisted in software development tasks, learning industry practices and contributing to academic and practical projects.",
+            tags: ["Internship", "Academic Projects", "Industry Practice"]
         }
     ],
     teaching: [
         {
-            org: "College One",
-            period: "Date - Date",
-            title: "Professor / Lecturer",
-            description: "Taught programming fundamentals, problem solving, database concepts, and practical software development through examples and student exercises.",
-            tags: ["Programming Fundamentals", "Database Management System", "Web Technology"]
+            org: "Kantipur City College",
+            period: "Lecturer / Supervisor",
+            location: "Kathmandu, Nepal",
+            title: "Lecturer",
+            description: "Taught mobile programming, Java, networking, object-oriented programming, system analysis, and computer system concepts. Also supported project supervision and practical training.",
+            tags: ["Mobile Programming", "OOP in Java", "Computer Network", "Advanced OOP Programming", "System Analysis and Design", "Data Communication and Computer Network", "Computer System Concepts"]
         },
         {
-            org: "College Two",
-            period: "Date - Date",
-            title: "Teaching Faculty",
-            description: "Guided students in software engineering concepts, project documentation, technical presentation, and academic project development.",
-            tags: ["Software Engineering", "Project Work", "System Analysis and Design"]
+            org: "Himalayan College of Management",
+            period: "Lecturer / Trainer",
+            location: "Kathmandu, Nepal",
+            title: "Lecturer",
+            description: "Delivered applied programming and computing courses with a focus on practical assignments, software concepts, and student skill development.",
+            tags: ["Applied Programming", "Mobile Programming", "Office Application", "OOP in Java", "Computer Graphics", "Distributed and Parallel Computing"]
         },
         {
-            org: "College Three",
-            period: "Date - Date",
-            title: "Programming Instructor",
-            description: "Supported students with coding practice, debugging habits, logical thinking, and practical assignments connected to real software problems.",
-            tags: ["Object-Oriented Programming", "Data Structures", "Application Development"]
+            org: "Cosmos College of Information Technology",
+            period: "Lecturer",
+            location: "Kathmandu, Nepal",
+            title: "Lecturer",
+            description: "Taught mobile programming with emphasis on Android fundamentals, app flow, practical implementation, and project-based learning.",
+            tags: ["Mobile Programming", "Android Fundamentals", "Project-Based Learning"]
         },
         {
-            org: "College Four",
-            period: "Date - Date",
-            title: "Academic Mentor",
-            description: "Mentored learners through final-year projects, proposal preparation, viva preparation, and technical report writing.",
-            tags: ["Final Year Project", "Research Methodology", "Technical Communication"]
+            org: "Kathmandu BernHardt College",
+            period: "Lecturer / Project Supervisor",
+            location: "Kathmandu, Nepal",
+            title: "Lecturer",
+            description: "Taught scripting, PHP, JavaScript, and content management systems using WordPress and Joomla. Worked as a project supervisor and provided training and supervision.",
+            tags: ["Scripting Language", "PHP", "JavaScript", "WordPress", "Joomla", "Project Supervision"]
         }
     ]
 };

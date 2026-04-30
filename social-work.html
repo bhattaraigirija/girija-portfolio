@@ -16,26 +16,22 @@
             <a class="nav-link" href="index.html#about">About</a>
             <a class="nav-link" href="index.html#education">Education</a>
             <a class="nav-link" href="index.html#experience">Experience</a>
-            <a class="nav-link" href="index.html#services">Services</a>
-            <a class="nav-link" href="index.html#skills">Skills</a>
-            <a class="nav-link" href="index.html#projects">Projects</a>
+            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="index.html#services">Service &amp; Skills</a>
             <a class="nav-link" href="gallery.html">Gallery</a>
             <a class="nav-link" href="index.html#contact">Contact</a>
         </nav>
     </header>
 
     <main>
-        <section class="section compact-detail-hero">
-            <div class="section-title reveal">
-                <p class="kicker">Social Impact</p>
-                <h1>Social service shaped by coordination, technology, and community trust.</h1>
-                <p class="section-note">Girija's social work focuses on connecting people, organizing volunteers, and supporting urgent community needs with practical action.</p>
-            </div>
+        <section class="page-intro reveal">
+            <p class="kicker">Social Work</p>
+            <h1>Community coordination and public support.</h1>
         </section>
 
         <section class="section media-story">
             <figure class="story-image reveal" data-fallback="Social Work">
-                <img src="assets/photography/photo-3.jpg" alt="Girija social work moment">
+                <img src="assets/gallery/social-1.jpg" alt="Girija social work moment">
             </figure>
             <div class="story-copy reveal">
                 <p class="kicker">Involvement</p>
@@ -50,9 +46,18 @@
             </div>
         </section>
 
+        <section class="section">
+            <div class="section-title reveal">
+                <p class="kicker">Social Work Blog</p>
+                <h2>Field notes, awareness posts, and community updates.</h2>
+                <p class="section-note">These posts are loaded from a static JSON-style JavaScript file. Add more items in data/social-posts.js whenever you want to publish new posts.</p>
+            </div>
+            <div class="posts-grid" id="social-posts-list"></div>
+        </section>
+
         <section class="section detail-band">
             <div class="section-title reveal">
-                <p class="kicker">Timeline</p>
+                <p class="kicker">Process</p>
                 <h2>Social work process.</h2>
             </div>
             <div class="detail-timeline visual-timeline">
@@ -69,6 +74,7 @@
         <span>&copy; <span id="year"></span> All rights reserved.</span>
     </footer>
     <a class="floating-back-top" href="#" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+    <script src="data/social-posts.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
