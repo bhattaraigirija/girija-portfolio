@@ -2036,7 +2036,8 @@ h3 {
     padding-top: clamp(52px, 6vw, 76px);
     padding-bottom: clamp(52px, 6vw, 76px);
     background:
-        linear-gradient(135deg, rgba(28, 124, 99, 0.08), rgba(181, 139, 42, 0.08)),
+        radial-gradient(circle at 16% 18%, rgba(181, 139, 42, 0.16), transparent 30%),
+        linear-gradient(135deg, rgba(28, 124, 99, 0.1), rgba(181, 139, 42, 0.08)),
         var(--paper);
 }
 
@@ -2049,40 +2050,58 @@ h3 {
 .resume-card {
     position: relative;
     display: grid;
-    grid-template-columns: 58px minmax(0, 1fr);
-    align-items: center;
-    gap: 16px;
-    padding: 26px;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+    gap: 18px;
+    min-height: 280px;
+    padding: 28px;
     overflow: hidden;
-    transition: transform 180ms ease, box-shadow 180ms ease;
+    isolation: isolate;
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(240, 247, 244, 0.82)),
+        var(--white);
+    border: 1px solid rgba(28, 124, 99, 0.12);
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.resume-card::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 6px;
+    background: linear-gradient(90deg, var(--green), var(--gold));
+    z-index: -1;
 }
 
 .resume-card::after {
     content: "";
     position: absolute;
-    right: -42px;
-    bottom: -42px;
-    width: 130px;
-    height: 130px;
+    right: -70px;
+    bottom: -80px;
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
-    background: rgba(28, 124, 99, 0.08);
+    background: rgba(28, 124, 99, 0.1);
+    z-index: -1;
 }
 
 .resume-card:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow);
+    transform: translateY(-4px);
+    border-color: rgba(28, 124, 99, 0.24);
+    box-shadow: 0 22px 45px rgba(49, 42, 32, 0.13);
 }
 
-.resume-card i {
-    width: 52px;
-    height: 52px;
+.resume-icon i {
+    width: 58px;
+    height: 58px;
     display: inline-grid;
     place-items: center;
     flex: 0 0 auto;
-    border-radius: 50%;
+    border-radius: 18px;
     color: var(--paper);
-    background: var(--ink);
-    font-size: 1.15rem;
+    background: linear-gradient(135deg, var(--ink), var(--green));
+    font-size: 1.2rem;
+    box-shadow: 0 14px 26px rgba(28, 124, 99, 0.18);
 }
 
 .resume-card strong,
@@ -2093,23 +2112,44 @@ h3 {
 
 .resume-card b {
     grid-column: 1 / -1;
+    align-self: end;
     width: fit-content;
-    padding: 8px 11px;
+    margin-top: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 15px;
     border-radius: 999px;
     color: var(--paper);
-    background: var(--ink);
-    font-size: 0.86rem;
+    background: linear-gradient(135deg, var(--green), #155f4d);
+    font-size: 0.9rem;
     z-index: 1;
+    box-shadow: 0 14px 26px rgba(28, 124, 99, 0.22);
+}
+
+.resume-card b i {
+    font-size: 0.82rem;
 }
 
 .resume-card small {
-    color: var(--soft-ink);
+    margin-bottom: 8px;
+    color: var(--green);
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.resume-card strong {
+    color: var(--ink);
+    font-size: clamp(1.35rem, 2vw, 1.75rem);
 }
 
 .resume-card em {
-    margin-top: 8px;
+    margin-top: 12px;
     color: var(--soft-ink);
-    font-size: 0.9rem;
+    font-size: 0.98rem;
+    line-height: 1.65;
     font-style: normal;
 }
 
@@ -2480,14 +2520,14 @@ h3 {
 
 .contact-layout {
     display: grid;
-    grid-template-columns: minmax(0, 0.9fr) minmax(300px, 0.72fr);
-    gap: 28px;
+    grid-template-columns: minmax(0, 0.84fr) minmax(420px, 0.86fr);
+    gap: clamp(28px, 5vw, 64px);
     align-items: start;
 }
 
 .contact-side {
     display: grid;
-    gap: 12px;
+    gap: 14px;
 }
 
 .contact-layout p {
@@ -2527,28 +2567,30 @@ h3 {
 .contact-methods {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
+    gap: 12px;
     margin-top: 0;
 }
 
 .contact-methods a {
     display: grid;
-    grid-template-columns: 44px minmax(0, 1fr);
+    grid-template-columns: 42px minmax(0, 1fr);
     align-items: center;
-    gap: 12px;
-    padding: 14px;
+    gap: 11px;
+    min-height: 104px;
+    padding: 16px;
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: var(--radius);
-    background: rgba(255, 255, 255, 0.07);
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.06));
     transition: transform 180ms ease, background 180ms ease;
 }
 
 .contact-methods i {
-    width: 44px;
-    height: 44px;
+    width: 42px;
+    height: 42px;
     display: inline-grid;
     place-items: center;
-    border-radius: 50%;
+    border-radius: 15px;
     color: var(--ink);
     background: var(--paper);
 }
@@ -3105,6 +3147,16 @@ h3 {
     .archive-stats {
         grid-template-columns: 1fr;
         display: grid;
+    }
+
+    .contact-side .contact-methods {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .contact-side .contact-methods a {
+        grid-template-columns: 1fr;
+        align-content: start;
+        min-height: 148px;
     }
 
     .college-grid,
