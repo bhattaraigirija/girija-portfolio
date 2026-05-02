@@ -1,6 +1,14 @@
 window.PORTFOLIO_EXPERIENCE = {
     software: [
         {
+            org: "Nepali Blood Donors",
+            period: "Sep 2020 - Present",
+            location: "Kathmandu, Nepal (Remote)",
+            title: "Founder & Developer",
+            description: "Founded and led the development of a blood donation platform, managing end-to-end product development, including mobile app architecture, backend integration, and user engagement strategies.",
+            tags: ["Founder", "Mobile Architecture", "User Engagement"]
+        },
+        {
             org: "EKbana Solutions Pte. Ltd",
             period: "Jan 2025 - Present",
             location: "Lalitpur, Nepal (On-site)",
@@ -8,6 +16,7 @@ window.PORTFOLIO_EXPERIENCE = {
             description: "Working as a full-time Android Developer, contributing to scalable mobile application development, performance optimization, and production-level deployments.",
             tags: ["Android Development", "Performance Optimization", "Production Deployment"]
         },
+
         {
             org: "Maanjari Technology",
             period: "Aug 2024 - Present",
@@ -16,14 +25,7 @@ window.PORTFOLIO_EXPERIENCE = {
             description: "Worked across full-time and part-time responsibilities, collaborating on software systems, backend integration, feature enhancement, code quality, and smooth remote project delivery.",
             tags: ["Backend Integration", "Feature Enhancement", "Remote Delivery"]
         },
-        {
-            org: "Nepali Blood Donors",
-            period: "Sep 2020 - Present",
-            location: "Kathmandu, Nepal (On-site)",
-            title: "Founder & Lead Developer",
-            description: "Founded and led the development of a blood donation platform, managing end-to-end product development, including mobile app architecture, backend integration, and user engagement strategies.",
-            tags: ["Founder", "Mobile Architecture", "User Engagement"]
-        },
+    
         {
             org: "InfoDevelopers Pvt. Ltd.",
             period: "Oct 2023 - Aug 2024",
@@ -68,22 +70,22 @@ window.PORTFOLIO_EXPERIENCE = {
     teaching: [
         {
             org: "Kantipur City College",
-            period: "Lecturer / Supervisor",
+            period: "Lecturer / Project Supervisor",
             location: "Kathmandu, Nepal",
             title: "Lecturer",
             description: "Taught mobile programming, Java, networking, object-oriented programming, system analysis, and computer system concepts. Also supported project supervision and practical training.",
-            tags: ["Mobile Programming", "OOP in Java", "Computer Network", "Advanced OOP Programming", "System Analysis and Design", "Data Communication and Computer Network", "Computer System Concepts"]
+            tags: ["Mobile Programming", "Computer Network", "Advanced OOP Programming", "System Analysis and Design", "Data Communication and Computer Network", "Computer System Concepts"]
         },
         {
-            org: "Himalayan College of Management",
-            period: "Lecturer / Trainer",
+            org: "Himalayan College of Management & IT",
+            period: "Lecturer",
             location: "Kathmandu, Nepal",
             title: "Lecturer",
             description: "Delivered applied programming and computing courses with a focus on practical assignments, software concepts, and student skill development.",
             tags: ["Applied Programming", "Mobile Programming", "Office Application", "OOP in Java", "Computer Graphics", "Distributed and Parallel Computing"]
         },
         {
-            org: "Cosmos College of Information Technology",
+            org: "COSMOS College of Management and Technology",
             period: "Lecturer",
             location: "Kathmandu, Nepal",
             title: "Lecturer",
@@ -92,7 +94,7 @@ window.PORTFOLIO_EXPERIENCE = {
         },
         {
             org: "Kathmandu BernHardt College",
-            period: "Lecturer / Project Supervisor",
+            period: "Lecturer",
             location: "Kathmandu, Nepal",
             title: "Lecturer",
             description: "Taught scripting, PHP, JavaScript, and content management systems using WordPress and Joomla. Worked as a project supervisor and provided training and supervision.",
